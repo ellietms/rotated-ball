@@ -1,0 +1,47 @@
+body{
+   
+background-image: url("https://goprincetontigers.com/images/2016/6/16//PU_Clarke_Field05.JPG?width=600&height=360&mode=crop");
+background-size: cover;
+display: flex;
+justify-content: center;
+}
+html{
+    height: 100%;
+}
+.container{
+    margin-top: 10%;
+}
+
+.head{
+    display:contents;
+    color: rgb(32, 53, 12);
+    padding-bottom: 10%;
+    font-size: 5rem;
+    margin-left:40%;
+    margin-right: auto;
+}
+
+.ball{
+    display:flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20%;
+}
+@media(max-width:1000px){
+    .container{
+        margin-top: 20%;
+    }
+    
+    .head{
+        display:contents;
+        font-size: 5rem;
+        margin-left:25%;
+        margin-right: auto;
+    }
+    
+    .ball{
+        display:flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
